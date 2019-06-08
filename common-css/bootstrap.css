@@ -9318,3 +9318,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* ---------------------------------
+work around
+--------------------------------- */
+.fixmargins{ margin-top: 0px; margin-bottom: 15px; }
+.margin-tb-30{ margin-top: 0px; margin-bottom: 15px; }

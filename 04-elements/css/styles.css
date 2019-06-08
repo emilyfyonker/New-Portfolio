@@ -97,7 +97,7 @@ b.max-bold{ font-weight: 700; }
 .margin-b-50{ margin-bottom: 50px; }
 
 .margin-tb-20{ margin-top: 20px; margin-bottom: 20px; }
-.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.margin-tb-30{ margin-top: 0px; margin-bottom: 15px; }
 
 .font-yellow{ color: #FFA600; }
 
@@ -270,3 +270,10 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
 
+.contact{ margin-top: 0px; margin-bottom: 15px; }
+
+/* ---------------------------------
+work around
+--------------------------------- */
+.fixmargins{ margin-top: 0px; margin-bottom: 15px; }
+.margin-tb-30{ margin-top: 0px; margin-bottom: 15px; }
